@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טטריס</title>
+    <style>
+        /* הגדרות עבור מרכז הקנבס בדף */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #030303; /* צבע רקע לדף */
+        }
+
+        canvas {
+            border: 4px solid rgb(251, 3, 3);
+            background-color: #00ccff; /* צבע רקע לקנבס */
+        }
+    </style>
+</head>
+<body>
+    <!-- קנבס לציור המשחק -->
+    <canvas id="tetris" width="180" height="360"></canvas>
+    <script src="tetris.js"></script> <!-- קובץ JavaScript עם הלוגיקה של המשחק -->
+</body>
+</html>
